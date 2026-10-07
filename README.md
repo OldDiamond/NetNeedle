@@ -13,12 +13,8 @@ developers and managers can both use.
 
 [Explore the screenshots](#product-tour) · [See the engineering](#engineering-highlights) · [Deployment guide](deploy.md) · [Source code](https://github.com/bericontraster/NetNeedle)
 
-> **Cover screenshot placeholder**  
-> Add a wide screenshot of the public homepage or your strongest dashboard view.
-
-<!-- Replace the placeholder above with this image after adding the file:
-![NetNeedle cybersecurity assessment platform](docs/screenshots/netneedle-cover.png)
--->
+![NetNeedle landing page](assets/images/dashboard.png)
+**Landing Page**  
 
 ## The problem it addresses
 
@@ -55,48 +51,35 @@ stores their state so users can return to review results and generate reports.
 
 ## Product tour
 
-The placeholders below are ready for your screenshots. Save images under
-`docs/screenshots/`, then replace each placeholder with its Markdown image line,
-removing the surrounding `<!--` and `-->` comment markers. Use sample or
-anonymized assessment data for the public showcase.
-
 ### 1. Overview dashboard
 
 A central workspace for assessment activity, scan status, and security findings.
 
-> **Screenshot placeholder — Dashboard**  
-> Show the overview with populated scan activity and summary cards.
-
-<!-- ![NetNeedle dashboard showing assessment activity and scan summaries](docs/screenshots/dashboard.png) -->
+![NetNeedle scanner dashboard](assets/images/scanner-dashboard.png)
+**Dashboard**
 
 ### 2. Assessment configuration
 
 Users choose the assessment type and define its scope and execution settings
 before starting a scan.
 
-> **Screenshot placeholder — Scan configuration**  
-> Show the scan selection screen or a populated configuration form with targets,
-> exclusions, and scope controls visible.
-
-<!-- ![NetNeedle assessment configuration with targets and scope controls](docs/screenshots/scan-configuration.png) -->
+![Scanner configuration](assets/images/scan-configuration.png)
+**Scanner Configuration Page**
 
 ### 3. Progress and findings
 
 Incremental results make the assessment observable while it runs. Findings retain
 their source and evidence so users can understand what a check actually found.
 
-> **Screenshot placeholder — Scan results**  
-> Show scan progress and a finding's severity, confirmation status, and evidence.
-
-<!-- ![NetNeedle scan results showing progress and evidence for a finding](docs/screenshots/scan-results.png) -->
+![Completed Scan](assets/images/scan-completed.png)
+**Completed Scan**
 
 ### 4. Executive report
 
 A management-focused view of the assessment, its risk summary, and recommended
 actions, built from the same findings used in the technical report.
 
-> **Screenshot placeholder — Executive report**  
-> Show a report page with the risk overview and management recommendations.
+![](assets/images/exec-report.png)
 
 <!-- ![NetNeedle executive report with risk overview and management recommendations](docs/screenshots/executive-report.png) -->
 
@@ -105,20 +88,16 @@ actions, built from the same findings used in the technical report.
 A technical view of findings, captured evidence, affected endpoints, and
 remediation guidance for investigation and implementation.
 
-> **Screenshot placeholder — Detailed report**  
-> Show a readable finding page with evidence and recommended fixes.
-
-<!-- ![NetNeedle detailed assessment report with evidence and remediation guidance](docs/screenshots/detailed-report.png) -->
+![outdated javascript vulnerability](assets/images/finding-outdated.png)
+**Detailed Finding**
 
 ### 6. Administration
 
 An administration workspace supports user management, subscription changes,
 payment review, and AI configuration.
 
-> **Screenshot placeholder — Admin workspace**  
-> Show the admin overview or payment review interface using sample account data.
-
-<!-- ![NetNeedle administration workspace for users and payment review](docs/screenshots/admin-workspace.png) -->
+![Admin Portal](assets/images/admin-portal.png)
+**Admin Portal**
 
 ## Engineering highlights
 
@@ -214,11 +193,8 @@ NetNeedle is designed for assessments of assets the user owns or is authorized
 to test. Findings preserve uncertainty where additional manual validation is
 needed.
 
-## Explore the implementation
+## About Author
+I'm Mohammad Yasin, web application security professional. This project reflects my skills and something I can showcase to show my passionate with what I do.
 
-- [Deployment and operations](deploy.md) — setup, configuration, HTTPS, verification, and backups.
-- [Network assessment methodology](readme.md) — scope controls and the implemented assessment approach.
-- [Frontend architecture and checks](docs/frontend-tooling.md) — public pages, application controllers, and build verification.
-- [Scan orchestration](backend/app/tasks/scan_tasks.py) — background execution and assessment state.
-- [Report generation](backend/app/services/report_service.py) — shared report data, rendering, and delivery.
-- [Report validation tests](backend/tests/test_report_generation.py) — evidence, scoring, fallback, and report consistency checks.
+🌐 [Portfolio](https://olddiamond.github.io/m1000z/)
+📧 [yasinnadeemswiss@gmail.com](yasinnadeemswiss@gmail.com)
