@@ -1,6 +1,8 @@
-# NetNeedle
+<p align="center">
+  <img src="assets/images/logo.png" alt="SillyAuthority" width="150">
+</p>
 
-### From exposed services to clear security decisions.
+# NetNeedle
 
 NetNeedle is a full-stack cybersecurity assessment platform that helps users
 map their external attack surface, review web security findings, and turn scan
@@ -11,10 +13,15 @@ The project combines security tooling with product design and backend engineerin
 users can follow an assessment from its initial configuration to a report that
 developers and managers can both use.
 
-[Explore the screenshots](#product-tour) · [See the engineering](#engineering-highlights) · [Deployment guide](deploy.md) · [Source code](https://github.com/bericontraster/NetNeedle)
-
 ![NetNeedle landing page](assets/images/dashboard.png)
-**Landing Page**  
+
+## Table Of Contents
+
+1. [Explore the screenshots](#product-tour)  
+2. [See the engineering](#engineering-highlights)  
+3. [Deployment guide](deploy.md)   
+4. [Source code](https://github.com/bericontraster/NetNeedle) 
+5. [About Author](#about-author) 
 
 ## The problem it addresses
 
@@ -51,12 +58,14 @@ stores their state so users can return to review results and generate reports.
 
 ## Product tour
 
+<details>
+<summary><b>Click to expand Installation</b></summary>
+
 ### 1. Overview dashboard
 
 A central workspace for assessment activity, scan status, and security findings.
 
 ![NetNeedle scanner dashboard](assets/images/scanner-dashboard.png)
-**Dashboard**
 
 ### 2. Assessment configuration
 
@@ -64,7 +73,6 @@ Users choose the assessment type and define its scope and execution settings
 before starting a scan.
 
 ![Scanner configuration](assets/images/scan-configuration.png)
-**Scanner Configuration Page**
 
 ### 3. Progress and findings
 
@@ -72,16 +80,13 @@ Incremental results make the assessment observable while it runs. Findings retai
 their source and evidence so users can understand what a check actually found.
 
 ![Completed Scan](assets/images/scan-completed.png)
-**Completed Scan**
 
 ### 4. Executive report
 
 A management-focused view of the assessment, its risk summary, and recommended
 actions, built from the same findings used in the technical report.
 
-![](assets/images/exec-report.png)
-
-<!-- ![NetNeedle executive report with risk overview and management recommendations](docs/screenshots/executive-report.png) -->
+![Executive Report](assets/images/exec-report.png)
 
 ### 5. Detailed assessment report
 
@@ -89,7 +94,6 @@ A technical view of findings, captured evidence, affected endpoints, and
 remediation guidance for investigation and implementation.
 
 ![outdated javascript vulnerability](assets/images/finding-outdated.png)
-**Detailed Finding**
 
 ### 6. Administration
 
@@ -97,7 +101,8 @@ An administration workspace supports user management, subscription changes,
 payment review, and AI configuration.
 
 ![Admin Portal](assets/images/admin-portal.png)
-**Admin Portal**
+
+</details>
 
 ## Engineering highlights
 
@@ -123,7 +128,7 @@ or unsuitable.
 ### Controlled scanner integration
 
 The scanner pipeline combines built-in checks with specialist tools such as
-Nmap, Masscan, Nuclei, WhatWeb, Nikto, and testssl.sh. Targets and exclusions are
+Nmap, Masscan, Nuclei, WhatWeb, Nikto, and `testssl.sh`. Targets and exclusions are
 validated, execution has time and scope limits, and tool status is recorded.
 Supported checks depend on the scan configuration and available tooling.
 
@@ -196,5 +201,5 @@ needed.
 ## About Author
 I'm Mohammad Yasin, web application security professional. This project reflects my skills and something I can showcase to show my passionate with what I do.
 
-🌐 [Portfolio](https://olddiamond.github.io/m1000z/)
-📧 [yasinnadeemswiss@gmail.com](yasinnadeemswiss@gmail.com)
+🌐 [olddiamond.github.io](https://olddiamond.github.io/m1000z/)  
+📧 [yasinnadeemswiss@gmail.com](yasinnadeemswiss@gmail.com)  
