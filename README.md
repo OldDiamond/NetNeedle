@@ -106,6 +106,9 @@ payment review, and AI configuration.
 
 ## Engineering highlights
 
+<details>
+<summary><b>Click to expand Installation</b></summary>
+
 ### Background processing with visible state
 
 FastAPI handles application requests while Celery workers execute longer-running
@@ -144,6 +147,8 @@ public pages and Three.js visuals. The repository includes frontend checks,
 browser verification scripts, backend tests, and a GitHub Actions workflow for
 frontend verification and builds. Docker Compose assembles the services, and
 Alembic applies the database schema history during startup.
+
+</details>
 
 ## Architecture at a glance
 
